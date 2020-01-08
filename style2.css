@@ -1,0 +1,44 @@
+body {
+    background: lightsteelblue;
+    text-align: center;
+}
+#pic {
+    border: dotted azure;
+    height: 75px;
+    width: 105px;
+}
+h2, h3 {
+    color: midnightblue;
+}
+p {
+    color: rgb(64, 64, 177);
+}
+.cool {
+        color: darkblue;
+}
+.square {
+    color: blue;
+    background-color: rgb(96, 140, 197);
+    height: 200px;
+    width: 250px;
+    margin: auto;
+
+}
+#special {
+    font-style: italic;
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cool-square {
+    background-color: lightskyblue;
+}
+#uncool-square {
+    background-color: aqua;
+}
+li, #special {
+    color: gray;
+    font-size: 18px;
+}
+* {
+    box-sizing: border-box;
+}

@@ -1,0 +1,51 @@
+h2 {
+    color: pink;
+    font-size: 30 px;
+    font-weight: bold;
+    font-style: italic;
+}
+p {
+    color: blue;
+}
+li {
+    color: red;
+    list-style: none;
+}
+#special {
+    color: green;
+    font-size: 30px;
+}
+.cool {
+    color: lightblue;
+    font-size: 14px;
+}
+ul {
+    color: orange;
+}
+body {
+    
+    background-image: url('http://www.placekitten.com/300/300');
+    background: lightpink;
+    text-align: right;
+}
+#cool-square {
+    background: rebeccapurple;
+}
+#uncool-square {
+    background: azure;
+}
+.square {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    background: yellow;
+    margin: 0 auto;
+    color: rgb(3, 58, 3);
+    padding: 25px;
+    box-sizing: border-box;
+    border: dotted lightseagreen;
+    
+}
+* {
+    box-sizing: border-box;
+}
