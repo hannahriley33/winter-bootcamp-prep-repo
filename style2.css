@@ -16,12 +16,14 @@ p {
 .cool {
         color: darkblue;
 }
-.square {
+.square:hover {
     color: blue;
     background-color: rgb(96, 140, 197);
     height: 200px;
     width: 250px;
     margin: auto;
+    transition: width 1.2s ease-in-out;
+    cursor: pointer;
 
 }
 #special {
@@ -41,4 +43,9 @@ li, #special {
 }
 * {
     box-sizing: border-box;
+}
+.square {
+    width: 200px;
+    height: 200px;
+    color: purple;
 }
